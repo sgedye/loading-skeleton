@@ -58,8 +58,8 @@ const Title = styled.h1`
   margin: 0;
   padding: 2rem 0;
   color: #222;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-`;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+`
 
 const List = styled.section`
   display: flex;

@@ -51,9 +51,14 @@ const Container = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: stretch;
-  border: 3px solid #333;
+  border: 2px solid #333;
   border-radius: 2rem;
   background-color: white;
+  box-shadow: 2px 2px 5px #222;
+  &:hover {
+    transform: translate(2px, 2px);
+    box-shadow: none;
+  }
 `
 
 const Wrapper = styled.div`
